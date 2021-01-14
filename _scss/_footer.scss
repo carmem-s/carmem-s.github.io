@@ -1,12 +1,21 @@
 .cs-footer {
-  padding: .7rem 1.5rem;
+  padding: 2rem;
   position: absolute;
   bottom: 0;
   width: 100%;
-  border: 2px solid black;
+  // border: 2px solid black;
 }
 
 .cs-links {
-  border: 2px solid purple;
-  color: pink;
+  font-family: 'Xanh Mono';
+  font-size: .8rem;
+  font-weight: 500;
+  text-transform: lowercase;
+  // border: 2px solid purp;le;
+  // color: pink;
+}
+
+.footer-link {
+  margin-right: 4rem;
+  color: #2f2e2e;
 }

@@ -1,0 +1,14 @@
+.cs-images {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr [box-start] 1fr 1fr [box-end] 1fr;
+    grid-template-rows: masonry;
+  }
+
+}
+
+.cs-images--item {
+    width: 15%;
+    margin: .7rem;
+
+}

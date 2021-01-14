@@ -7,4 +7,32 @@
 @import "reset";
 @import "footer";
 @import "links";
+@import "images";
 @import "_accordion";
+
+@import url('https://fonts.googleapis.com/css2?family=Quando&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'VG5000';
+    src:    url('/assets/fonts/VG5000-Regular_web.eot') format('embedded-opentype'),
+            url('/assets/fonts/VG5000-Regular_web.woff') format('woff'),
+            url('/assets/fonts/VG5000-Regular_web.woff2') format('woff2'),
+            url('/assets/fonts/VG5000-Regular_web.ttf') format('truetype'),
+            url('/VG5000-Regular_web.svg#svgFontName') format('svg');
+}
+
+@font-face {
+    font-family: 'Karrik';
+    src: url('/assets/fonts/Karrik-Regular.ttf') format('truetype'),
+         url('/assets/fonts/Karrik-Italic.ttf') format('truetype'),
+         url('/assets/fonts/Karrik-Italic.ttf') format('woff'),
+         url('/assets/fonts/Karrik-Italic.ttf') format('woff'),
+         url('/assets/fonts/Karrik-Italic.ttf') format('woff2'),
+         url('/assets/fonts/Karrik-Italic.ttf') format('woff2'),
+
+}
+

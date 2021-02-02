@@ -1,14 +1,72 @@
 .cs-images {
-    display: grid;
-    gap: 10px;
-    grid-template-columns: 1fr [box-start] 1fr 1fr [box-end] 1fr;
-    grid-template-rows: masonry;
-  }
-
+    margin-left: 23rem;
+    column-count: 4;
+    column-gap: 2rem;
 }
 
 .cs-images--item {
-    width: 15%;
-    margin: .7rem;
+  margin: 0;
+  display: grid;
+  // grid-template-rows: 1fr auto;
+  break-inside: avoid;
+  padding: .5rem;
+  max-width: unset;
+  cursor: pointer;
+}
 
+.cs-images--item-df {
+  width: 125%;
+  margin: 2rem 5rem 0 0;
+}
+
+.cs-images--item-sk {
+  width: 130%;
+  margin: 1rem;
+}
+
+.cs-images--item-ct {
+  width: 90%;
+  margin: 0 2rem 1rem 1rem;
+
+}
+
+.cs-images--item-el {
+  width: 65%;
+  margin: 2rem 1rem 0 7rem;
+}
+
+.cs-images--item-ht {
+  width: 130%;
+  padding-top: 22rem;
+}
+
+.cs-images--item-sl {
+  width: 120%;
+  margin: 1.5rem 0 0 4rem;
+}
+
+.cs-images--item-om {
+  width: 40%;
+  margin-left: 14rem;
+}
+
+.cs-image--text {
+    background: white;
+    width: 22rem;
+    height: fit-content;
+    padding: 1rem;
+    border: solid;
+    border-width: thin;
+    z-index: 20;
+    display:none;
+    position: fixed;
+    // visibility: hidden;
+  &:after{
+    content:'';
+  }
+}
+
+.cs-images--item:hover .cs-image--text{
+  display: inline;
+  // visibility: visible;
 }

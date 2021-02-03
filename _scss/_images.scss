@@ -7,27 +7,25 @@
 .cs-images--item {
   margin: 0;
   display: grid;
-  // grid-template-rows: 1fr auto;
   break-inside: avoid;
-  padding: .5rem;
+  padding: 1rem;
   max-width: unset;
   cursor: pointer;
 }
 
 .cs-images--item-df {
-  width: 125%;
+  width: 120%;
   margin: 2rem 5rem 0 0;
 }
 
 .cs-images--item-sk {
   width: 130%;
-  margin: 1rem;
+  margin: 0 .5rem .5rem .5rem;
 }
 
 .cs-images--item-ct {
   width: 90%;
   margin: 0 2rem 1rem 1rem;
-
 }
 
 .cs-images--item-el {
@@ -41,8 +39,8 @@
 }
 
 .cs-images--item-sl {
-  width: 120%;
-  margin: 1.5rem 0 0 4rem;
+  width: 110%;
+  margin: 1.5rem 0 1rem 4rem;
 }
 
 .cs-images--item-om {

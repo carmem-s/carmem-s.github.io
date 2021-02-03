@@ -22,12 +22,12 @@
   position: fixed;
   float: left;
   margin: auto;
-  top: 10%;
-  bottom: 45%;
+  top: 20%;
   left: 3%;
   background: white;
   width: 24rem;
   height: fit-content;
+  max-height: -moz-fit-content; 
   z-index: 10;
   padding: 1rem;
   border: solid;

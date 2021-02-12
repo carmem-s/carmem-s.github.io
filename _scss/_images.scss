@@ -53,12 +53,11 @@
     width: 22rem;
     height: fit-content;
     padding: 1rem;
-    border: solid;
+    border: solid #20F820;
     border-width: thin;
     z-index: 20;
     display:none;
     position: fixed;
-    // visibility: hidden;
   &:after{
     content:'';
   }
@@ -66,5 +65,4 @@
 
 .cs-images--item:hover .cs-image--text{
   display: inline;
-  // visibility: visible;
 }

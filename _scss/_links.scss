@@ -1,7 +1,11 @@
 a {
-  color: #2f2e2e;
+  color: #333333;
   text-decoration: none;
   &:hover {
-  color:rgb(224, 67, 255); 
-}
-}
+    color: #333333;
+    text-shadow: 0px 0px 10px #20F820;
+  }
+  &::selection {
+    background-color: #BE8EFE;
+  }
+} 

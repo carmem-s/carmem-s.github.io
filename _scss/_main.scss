@@ -13,8 +13,9 @@
   text-decoration: none;
   &:hover {
     color: #F5F5F5;
-    text-shadow: 1px 1px 1px #b8b8b8,
-                 2px 2px 1px #b8b8b8;
+    text-shadow: 1px 1px 1px #20F820,
+                 2px 2px 1px #20F820;
+    box-shadow: none;
 }
 }
 
@@ -30,7 +31,7 @@
   max-height: -moz-fit-content; 
   z-index: 10;
   padding: 1rem;
-  border: solid;
+  border: solid #20F820;
   border-width: thin;
 }
 
@@ -63,7 +64,7 @@ body {
   overflow-y: hidden;
   overflow-x: scroll;
   background-color: #F5F5F5;
-  color: #2f2e2e;
+  color: #333333;
 }
 
 h1,
@@ -93,6 +94,9 @@ h3 {
 
 p {
   margin-bottom: 2em;
+  &::selection {
+    background-color: #20F820;
+  }
 }
 
 p,

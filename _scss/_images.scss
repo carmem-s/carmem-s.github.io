@@ -1,68 +1,143 @@
 .cs-images {
+  margin: 0 auto;
+  @media only screen and (min-width : 992px) {
     margin-left: 23rem;
     column-count: 4;
     column-gap: 2rem;
+  }
 }
 
 .cs-images--item {
-  margin: 0;
-  display: grid;
-  break-inside: avoid;
-  padding: 1rem;
-  max-width: unset;
-  cursor: pointer;
+  @media only screen and (min-width : 992px) {
+    margin: 0;
+    display: grid;
+    break-inside: avoid;
+    padding: 1rem;
+    max-width: unset;
+    cursor: pointer;
+  }
 }
 
 .cs-images--item-df {
-  width: 120%;
-  margin: 2rem 5rem 0 0;
+  @media only screen and (min-width : 992px) {
+    width: 120%;
+    margin: 2rem 5rem 0 0;
+  }
 }
 
 .cs-images--item-sk {
-  width: 130%;
-  margin: 0 .5rem .5rem .5rem;
+  @media only screen and (min-width : 992px) {
+    width: 130%;
+  }
 }
 
 .cs-images--item-ct {
-  width: 90%;
-  margin: 0 2rem 1rem 1rem;
+  @media only screen and (min-width : 992px) {
+    width: 90%;
+    margin: 0 2rem 1rem 1rem;
+  }
 }
 
 .cs-images--item-el {
-  width: 65%;
-  margin: 2rem 1rem 0 7rem;
+  max-height: 30rem;
+  padding: 0 1rem 0 4rem;
+  @media only screen and (min-width : 992px) {
+    width: 65%;
+    margin: 2rem 1rem 0 7rem;
+    padding: unset;
+  }
 }
 
 .cs-images--item-ht {
-  width: 130%;
-  padding-top: 22rem;
+  @media only screen and (min-width : 992px) {
+    width: 130%;
+    padding-top: 22rem;
+  }
 }
 
 .cs-images--item-sl {
-  width: 110%;
-  margin: 1.5rem 0 1rem 4rem;
+  @media only screen and (min-width : 992px) {
+    width: 110%;
+    margin: 1.5rem 0 1rem 4rem;
+  }
 }
 
 .cs-images--item-om {
-  width: 40%;
-  margin-left: 14rem;
+  padding: 2rem;
+  max-height: 15rem;
+  @media only screen and (min-width : 992px) {
+    width: 40%;
+    margin-left: 12rem;
+    padding: unset;
+  }
 }
 
 .cs-image--text {
     background: white;
-    width: 22rem;
+    max-width: fit-content;
     height: fit-content;
     padding: 1rem;
     border: solid #20F820;
     border-width: thin;
-    z-index: 20;
-    display:none;
-    position: fixed;
-  &:after{
-    content:'';
+    margin: 1rem 0 1rem 0;
+    @media only screen and (min-width : 992px) {
+      width: 22rem;  
+      z-index: 20;
+      display:none;
+      position: fixed;
+      margin: unset;
+    &:after{
+      content:'';
+    }
   }
 }
 
 .cs-images--item:hover .cs-image--text{
+  @media only screen and (min-width : 992px) {
   display: inline;
+  }
 }
+
+.cs-image--text-df {
+  @media only screen and (min-width : 992px) {
+    margin-top: 16rem;
+    }
+}
+
+.cs-image--text-sk {
+  @media only screen and (min-width : 992px) {
+    margin: 16rem 0 0 16rem;
+    }
+}
+
+.cs-image--text-ct {
+  @media only screen and (min-width : 992px) {
+      margin: 8rem 0 0 11rem;
+    }
+}
+
+.cs-image--text-el {
+  @media only screen and (min-width : 992px) {
+    margin: -8rem 0 0 -16rem;
+    }
+}
+
+.cs-image--text-ht {
+  @media only screen and (min-width : 992px) {
+    margin: 1rem 0 0 -17rem;
+    }
+}
+
+.cs-image--text-sl {
+  @media only screen and (min-width : 992px) {
+    margin: -8rem 0 0 -16rem;
+    }
+}
+
+.cs-image--text-om {
+  @media only screen and (min-width : 992px) {
+    margin: -2rem 0 0 -11rem;
+  }
+}
+
+

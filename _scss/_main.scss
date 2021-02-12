@@ -1,6 +1,9 @@
 .cs-header {
   width: 100%;
+  padding: 2rem;
+  @media only screen and (min-width : 992px) {
   padding: 2rem 0 0 2rem;
+  }
 }
 
 .cs-header--link {
@@ -11,28 +14,31 @@
                2px 2px 1px #c2c2c2;
   width: 100%;
   text-decoration: none;
-  &:hover {
-    color: #F5F5F5;
-    text-shadow: 1px 1px 1px #20F820,
-                 2px 2px 1px #20F820;
-    box-shadow: none;
-}
+    &:hover {
+      color: #F5F5F5;
+      text-shadow: 1px 1px 1px #20F820,
+                  2px 2px 1px #20F820;
+  }
 }
 
 .cs-text-box {
-  position: fixed;
-  float: left;
-  margin: auto;
-  top: 20%;
-  left: 3%;
-  background: white;
-  width: 24rem;
-  height: fit-content;
-  max-height: -moz-fit-content; 
-  z-index: 10;
   padding: 1rem;
   border: solid #20F820;
   border-width: thin;
+  background: white;
+  height: fit-content;
+  max-width: fit-content;
+  max-height: -moz-fit-content;
+  margin-bottom: 2rem;
+  @media only screen and (min-width : 992px) {
+    margin: auto;
+    width: 24rem;
+    top: 20%;
+    left: 3%;
+    position: fixed;
+    float: left;
+    z-index: 10;
+  }
 }
 
 .cs-small-text {
@@ -45,7 +51,15 @@
 }
 
 .cs-main {
-  height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  padding: 2rem;
+  @media all and (min-width: 1400px) {
+    height: 100%;
+    min-width: unset;
+    padding: unset;
+    overflow-x: unset;
+  }
 }
 
 // pre stuff
@@ -58,13 +72,15 @@
 
 body {
   font-family: 'Xanh Mono';
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  overflow-y: hidden;
-  overflow-x: scroll;
   background-color: #F5F5F5;
   color: #333333;
+  @media only screen and (min-width : 992px) {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
 }
 
 h1,

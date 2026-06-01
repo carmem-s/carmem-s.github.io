@@ -1,22 +1,30 @@
 .cs-images {
   margin: 0 auto;
+  // border: 3px solid rgb(222, 40, 219);
   @media only screen and (min-width : 992px) {
     margin-left: 23rem;
+    // display: grid;
+    // grid-template-rows: repeat(2, 1fr); /* 🔥 two rows */
+    // grid-auto-flow: column;              /* 🔥 fills vertically first, then moves right */
     column-count: 4;
     column-gap: 2rem;
   }
 }
 
 .cs-images--item {
+  //  border: 2px solid rgb(77, 96, 25);
   @media only screen and (min-width : 992px) {
     margin: 0;
-    display: grid;
     break-inside: avoid;
     padding: 1rem;
     max-width: unset;
     cursor: pointer;
   }
 }
+
+// .cs-images--each {
+//    border: 2px solid blue;
+// }
 
 .cs-images--item-df {
   @media only screen and (min-width : 992px) {
@@ -25,18 +33,24 @@
   }
 }
 
+.cs-images--item-yt {
+  @media only screen and (min-width : 992px) {
+     width: 100%;
+  }
+ }
+
 .cs-images--item-sk {
   @media only screen and (min-width : 992px) {
     width: 130%;
   }
 }
 
-// .cs-images--item-ct {
-//   @media only screen and (min-width : 992px) {
-//     width: 90%;
-//     margin: 0 2rem 1rem 1rem;
-//   }
-// }
+.cs-images--item-btb {
+  @media only screen and (min-width : 992px) {
+     width: 120%;
+     margin: 0 2rem 1rem 1rem;
+  }
+ }
 
 .cs-images--item-el {
   max-height: 30rem;
@@ -98,6 +112,18 @@
   }
 }
 
+.cs-image--text-yt {
+  @media only screen and (min-width : 992px) {
+    margin: 1rem 0 0 0;
+    }
+}
+
+.cs-image--text-btb {
+  @media only screen and (min-width : 992px) {
+      margin: 8rem 0 0 11rem;
+    }
+}
+
 .cs-image--text-df {
   @media only screen and (min-width : 992px) {
     margin: 5rem 0 0 14rem;
@@ -106,15 +132,9 @@
 
 .cs-image--text-sk {
   @media only screen and (min-width : 992px) {
-    margin: 10rem 0 0 13rem;
+    margin: 3rem 0 0 13rem;
     }
 }
-
-// .cs-image--text-ct {
-//   @media only screen and (min-width : 992px) {
-//       margin: 8rem 0 0 11rem;
-//     }
-// }
 
 .cs-image--text-el {
   @media only screen and (min-width : 992px) {

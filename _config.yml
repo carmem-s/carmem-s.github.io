@@ -9,10 +9,6 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: carmemsaito
 github_username:  carmem-s
 
-sass:
-  sass_dir: _sass
-  style: :compressed
-
 
 port: 8080
 

@@ -2,12 +2,15 @@
   margin: 0 auto;
   // border: 3px solid rgb(222, 40, 219);
   @media only screen and (min-width : 992px) {
-    margin-left: 23rem;
+    margin-left: 27rem;
+    max-height: calc(100vh - var(--footer-height));
+    padding-top: var(--header-height);
+    // padding-bottom: var(--footer-height);
     // display: grid;
     // grid-template-rows: repeat(2, 1fr); /* 🔥 two rows */
     // grid-auto-flow: column;              /* 🔥 fills vertically first, then moves right */
-    column-count: 4;
-    column-gap: 2rem;
+    column-count: 6;
+    column-gap: 20rem;
   }
 }
 
@@ -17,7 +20,9 @@
     margin: 0;
     break-inside: avoid;
     padding: 1rem;
-    max-width: unset;
+    width: 20rem;
+    // min-width: 10rem;
+    // max-width: unset;
     cursor: pointer;
   }
 }
@@ -35,7 +40,8 @@
 
 .cs-images--item-yt {
   @media only screen and (min-width : 992px) {
-     width: 100%;
+    width: 110%;
+    margin: 4rem 0rem 0rem 0rem;
   }
  }
 
@@ -48,7 +54,7 @@
 .cs-images--item-btb {
   @media only screen and (min-width : 992px) {
      width: 120%;
-     margin: 0 2rem 1rem 1rem;
+     margin: 1rem 0rem 0rem 0rem;
   }
  }
 
@@ -95,11 +101,14 @@
     border-width: thin;
     margin: 1rem 0 1rem 0;
     @media only screen and (min-width : 992px) {
-      width: 22rem;  
+      max-width: 30rem;  
       z-index: 20;
-      display:none;
-      position: fixed;
-      margin: unset;
+      visibility: hidden;
+      // position: fixed;
+      position: absolute;
+      // margin: unset;
+      // left: 1;
+      // margin-top: 0.5rem;
     &:after{
       content:'';
     }
@@ -108,54 +117,55 @@
 
 .cs-images--item:hover .cs-image--text{
   @media only screen and (min-width : 992px) {
-  display: inline;
+    visibility: visible;
   }
 }
 
-.cs-image--text-yt {
-  @media only screen and (min-width : 992px) {
-    margin: 1rem 0 0 0;
-    }
-}
+// .cs-image--text-yt {
+//   @media only screen and (min-width : 992px) {
+//     margin: -1rem 0 0 0;
+//     }
+// }
 
 .cs-image--text-btb {
   @media only screen and (min-width : 992px) {
-      margin: 8rem 0 0 11rem;
+      margin: -30rem 0 0 25rem;
     }
 }
 
-.cs-image--text-df {
-  @media only screen and (min-width : 992px) {
-    margin: 5rem 0 0 14rem;
-    }
-}
+// .cs-image--text-df {
+//   @media only screen and (min-width : 992px) {
+//     margin: -1rem 0 0 14rem;
+//     }
+// }
 
-.cs-image--text-sk {
-  @media only screen and (min-width : 992px) {
-    margin: 3rem 0 0 13rem;
-    }
-}
+// .cs-image--text-sk {
+//   @media only screen and (min-width : 992px) {
+//     margin: -3rem 0 0 5rem;
+//     }
+// }
 
 .cs-image--text-el {
   @media only screen and (min-width : 992px) {
-    margin: -1rem 0 0 -17rem;
+    margin: -10rem 0 0 -17rem;
     }
 }
 
 .cs-image--text-ht {
   @media only screen and (min-width : 992px) {
-    margin: 1rem 0 0 -17rem;
+    margin: -30rem 0 0 -20rem;
+    width: 30rem;
     }
 }
 
-.cs-image--text-sl {
-  @media only screen and (min-width : 992px) {
-    margin: 10rem 0 0 11rem;
-    }
-}
+// .cs-image--text-sl {
+//   @media only screen and (min-width : 992px) {
+//     margin: -1rem 2rem 0 10rem;
+//     }
+// }
 
-.cs-image--text-om {
-  @media only screen and (min-width : 992px) {
-    margin: -2rem 0 0 -11rem;
-  }
-}
+// .cs-image--text-om {
+//   @media only screen and (min-width : 992px) {
+//     margin: -2rem 0 0 -11rem;
+//   }
+// }
